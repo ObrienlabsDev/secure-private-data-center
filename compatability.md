@@ -2,6 +2,7 @@
 Details around various hardware configurations that support Ubuntu.
 https://ubuntu.com/certified
 ### QSFP56 NVIDIA DGX Spark
+- https://ca.store.ui.com/ca/en/category/switching-enterprise/collections/enterprise-campus-24/products/ecs-24s-poe
 
 ### Lenovo SR250 Ve
 - https://lenovopress.lenovo.com/lp1802-thinksystem-sr250-v3-server (acoustics - https://pubs.lenovo.com/uefi_xeon_4th/operating_modes)
