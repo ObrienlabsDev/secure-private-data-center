@@ -9,6 +9,7 @@ https://ubuntu.com/certified
 - https://datacentersupport.lenovo.com/ca/en/products/servers/thinksystem/sr250v3/7dcl/downloads/driver-list/
 - https://pubs.lenovo.com/sr250-v3/sr250_v3_user_guide.pdf
 - https://pubs.lenovo.com/sr150/thinksystem_toolless_friction_rail_v2.pdf
+- Ubuntu 24 ready - https://lenovopress.lenovo.com/osig#server_families=thinksystem&servers=sr250-v3-xeon-6300-7dcm-7dcl&os_families=ubuntu-server&os_versions=ubuntu-24&support=all&availability=available&form_factors=rack-1u-1s
 
 ### SFP28
 - https://ca.store.ui.com/ca/en/category/switching-professional-max-xg/products/usw-pro-xg-24
