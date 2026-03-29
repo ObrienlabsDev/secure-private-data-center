@@ -7,3 +7,5 @@ Conslidated private data center artifacts
 
 ## GDC - Google Distributed Cloud
 - https://github.com/ObrienlabsDev/blog/issues/174
+- https://github.com/ObrienlabsDev/blog/blob/main/google-distributed-cloud.md
+- https://github.com/ObrienlabsDev/blog/blob/main/private-cloud.md
