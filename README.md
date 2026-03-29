@@ -3,9 +3,21 @@ Conslidated private data center artifacts
 
 # GDC - Google Distributed Cloud
 GDC is Google's version of private or hybrid cloud within your own data center.
-- https://github.com/ObrienlabsDev/blog/issues/174
-- https://github.com/ObrienlabsDev/blog/blob/main/google-distributed-cloud.md
-- https://github.com/ObrienlabsDev/blog/blob/main/private-cloud.md
+## GDC 
+
+## GDC Documentation
+- https://docs.cloud.google.com/distributed-cloud/docs
+- See [VM Runtime](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable) (wraps Redhat [KubeVirt)](https://kubevirt.io/) https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable
+## GDC Component Mapping
+
+ Component | GDC  | OSS |
+---|---|---
+1 | VM Manager | KubeVirt
+
+
+## GDC Training
+- https://partner.skills.google/catalog?keywords=GDC
+- https://cloud.google.com/customers/rubin-observatory
 
 ## Lenovo SR250 V3 Rack Servers as GDC Simulator
 - https://vmware.lenovo.com/content/recipe/SR250%20V3-Raptor%20lake-ESXi9.0.html
@@ -35,12 +47,17 @@ GDC is Google's version of private or hybrid cloud within your own data center.
 
 
 # Private Cloud: PaaS Kubernetes stack with IaaS provisioning - HA and DR
-- https://github.com/ObrienlabsDev/blog/issues/172
-- https://github.com/ObrienlabsDev/secure-private-data-center
-- https://github.com/ObrienlabsDev/blog/issues/174
 - https://github.com/ObrienlabsDev/blog/blob/main/google-distributed-cloud.md
-
-
+- https://github.com/ObrienlabsDev/blog/blob/main/private-cloud.md
+- https://github.com/ObrienlabsDev/secure-private-data-center
+- https://github.com/ObrienlabsDev/blog/issues/172
+- https://github.com/ObrienlabsDev/blog/issues/137
+- https://github.com/ObrienlabsDev/blog/issues/172
+- https://github.com/ObrienlabsDev/blog/issues/171
+- https://github.com/ObrienlabsDev/blog/issues/170
+- https://github.com/ObrienlabsDev/blog/issues/163
+- https://github.com/ObrienlabsDev/blog/issues/174
+- Google internal-only L300 Anthos Migration notes - https://github.com/ObrienlabsDev/gcp-infrastructure-as-code/issues/22
 
 # References
 - Open Nebula - https://en.wikipedia.org/wiki/OpenNebula
