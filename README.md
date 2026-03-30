@@ -12,6 +12,8 @@ There are 3 main versions of GDC - where GDC Connected and GDC air-gapped are Go
 
 [GDCS](https://docs.cloud.google.com/distributed-cloud/docs/overview#gdcv) - Google Distributed Cloud software only
 
+There was a historical variant of GDC Hosted (renamed GDC connected (edge) where a POC can be setup to install GDC software only on your own VMs to prep for eventual delivery and integration of the 4 minimum racks in a 300k/month GDC Hosted - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdch/resources/faq
+
 ### GDC Component Mapping
 
  Component | Use Case | GCP | GDC  | OSS |
