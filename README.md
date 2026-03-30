@@ -4,7 +4,7 @@ Conslidated private data center artifacts
 # Hardware
 ## GDC - Google Distributed Cloud
 GDC is Google's version of private or hybrid cloud within your own data center. 
-There are 3 main versions of GDC - where GDC Connected and GDC air-gapped are Google provided hardware and software.  We will concentrate on GDC software only - for bare metal.
+There are 3 main versions of GDC - where GDC Connected and GDC air-gapped are Google provided hardware and software.  We will concentrate on [GDC software only - for bare metal](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal).
 
 [GDCC](https://docs.cloud.google.com/distributed-cloud/edge/latest/docs/overview) - Google Distributed Cloud connected (edge)
 
@@ -16,7 +16,11 @@ There are 3 main versions of GDC - where GDC Connected and GDC air-gapped are Go
 
  Component | Use Case | GCP | GDC  | OSS |
 --- | --- | --- | --- | ---
+API Gateway | L7 LB | Apigee | GKE dataplane 2 Gateway API | Ingres
+Connect Agent (GKE) | anthos fleet registration | . | [Connect Agent](https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/connect-agent) | .
+Service Mesh | . | . | . | .
 VM virtualization | VMs on Kubernetes | GCE | VM Manager | KubeVirt
+. | . | . | . | .
 
 
 ### GDC Documentation
@@ -29,6 +33,7 @@ VM virtualization | VMs on Kubernetes | GCE | VM Manager | KubeVirt
 - https://cloud.google.com/customers/rubin-observatory
 
 ### GDC software only for Bare Metal
+- https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal
 #### Lenovo Rack Servers as GDC Simulators
 - https://vmware.lenovo.com/content/recipe/SR250%20V3-Raptor%20lake-ESXi9.0.html
 - https://serverproven.lenovo.com/
