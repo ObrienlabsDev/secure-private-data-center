@@ -41,6 +41,8 @@ The following SR250 V3 server can run either Redhat or Ubuntu.
 
 <img width="1485" height="849" alt="Screenshot 2026-03-29 at 20 00 20" src="https://github.com/user-attachments/assets/b3d52b15-0e7c-49e3-8fb6-5ed290194c87" />
 
+<img width="627" height="471" alt="Screenshot 2026-03-29 at 20 23 00" src="https://github.com/user-attachments/assets/d9c38913-ae43-408c-bb3d-e065b53b0784" />
+
 ### TOR Networking
 Currently using TPLink 10gbps rack switches and routers.
 
