@@ -36,6 +36,8 @@ VM virtualization | VMs on Kubernetes | GCE | VM Manager | KubeVirt
 
 ### GDC software only for Bare Metal
 - https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal
+
+This GDC software-only for BM looks to be a rebrand of Anthos where on prem CPUs are billed back to the GCP Project.
 #### Lenovo Rack Servers as GDC Simulators
 - https://vmware.lenovo.com/content/recipe/SR250%20V3-Raptor%20lake-ESXi9.0.html
 - https://serverproven.lenovo.com/
