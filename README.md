@@ -91,7 +91,6 @@ Currently using TPLink 10gbps rack switches and routers.
 - https://github.com/ObrienlabsDev/secure-private-data-center
 - https://github.com/ObrienlabsDev/blog/issues/172
 - https://github.com/ObrienlabsDev/blog/issues/137
-- https://github.com/ObrienlabsDev/blog/issues/172
 - https://github.com/ObrienlabsDev/blog/issues/171
 - https://github.com/ObrienlabsDev/blog/issues/170
 - https://github.com/ObrienlabsDev/blog/issues/163
