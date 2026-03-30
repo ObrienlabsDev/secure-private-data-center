@@ -4,7 +4,7 @@ Conslidated private data center artifacts
 # Hardware
 ## GDC - Google Distributed Cloud
 GDC is Google's version of private or hybrid cloud within your own data center. 
-There are 3 main versions of GDC.
+There are 3 main versions of GDC - where GDC Connected and GDC air-gapped are Google provided hardware and software.  We will concentrate on GDC software only - for bare metal.
 
 [GDCC](https://docs.cloud.google.com/distributed-cloud/edge/latest/docs/overview) - Google Distributed Cloud connected (edge)
 
@@ -28,11 +28,12 @@ VM virtualization | VMs on Kubernetes | GCE | VM Manager | KubeVirt
 - https://partner.skills.google/catalog?keywords=GDC
 - https://cloud.google.com/customers/rubin-observatory
 
-## Lenovo Rack Servers as GDC Simulators
+### GDC software only for Bare Metal
+#### Lenovo Rack Servers as GDC Simulators
 - https://vmware.lenovo.com/content/recipe/SR250%20V3-Raptor%20lake-ESXi9.0.html
 - https://serverproven.lenovo.com/
 
-### Lenovo SR250 V3 Rack Server
+##### Lenovo SR250 V3 Rack Server
 
 Lenovo XEON blades are cost effective for GDC simulation and include a secondary management CPU/Software stack for configuraiton - lead time is 30 days for shipping.
 The following SR250 V3 server can run either Redhat or Ubuntu.
@@ -47,7 +48,7 @@ For smaller rack depths such as 24 inches - the supplied lenovo specific extenda
 <img width="2052" height="299" alt="Screenshot 2026-03-29 at 21 09 48" src="https://github.com/user-attachments/assets/b06025e4-1298-4761-83a6-88a0aec4a9a2" />
 
 
-### TOR Networking
+#### TOR Networking
 Currently using TPLink 10gbps rack switches and routers.
 
 
