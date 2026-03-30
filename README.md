@@ -4,15 +4,24 @@ Conslidated private data center artifacts
 # Hardware
 ## GDC - Google Distributed Cloud
 GDC is Google's version of private or hybrid cloud within your own data center. 
+There are 3 main versions of GDC.
+
+[GDCC](https://docs.cloud.google.com/distributed-cloud/edge/latest/docs/overview) - Google Distributed Cloud connected (edge)
+
+[GDCAG](https://docs.cloud.google.com/distributed-cloud/hosted/docs/ga/gdch) - Google Distributed Cloud air-gapped
+
+[GDCS](https://docs.cloud.google.com/distributed-cloud/docs/overview#gdcv) - Google Distributed Cloud software only
+
+### GDC Component Mapping
+
+ Component | Use Case | GCP | GDC  | OSS |
+--- | --- | --- | --- | ---
+VM virtualization | VMs on Kubernetes | GCE | VM Manager | KubeVirt
+
 
 ### GDC Documentation
 - https://docs.cloud.google.com/distributed-cloud/docs
 - See [VM Runtime](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable) (wraps Redhat [KubeVirt)](https://kubevirt.io/) https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable
-### GDC Component Mapping
-
- Component | GDC  | OSS |
----|---|---
-1 | VM Manager | KubeVirt
 
 
 ### GDC Training
@@ -38,6 +47,9 @@ Currently using TPLink 10gbps rack switches and routers.
 
 
 # Software
+## Harbor
+- https://goharbor.io/
+- 
 ## Openstack
 
 ## Open Nebula
