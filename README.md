@@ -37,7 +37,7 @@ VM virtualization | VMs on Kubernetes | GCE | VM Manager | KubeVirt
 Lenovo XEON blades are cost effective for GDC simulation and include a secondary management CPU/Software stack for configuraiton - lead time is 30 days for shipping.
 The following SR250 V3 server can run either Redhat or Ubuntu.
 
-<img width="1047" height="482" alt="Screenshot 2026-03-29 at 20 11 53" src="https://github.com/user-attachments/assets/51363eae-ccd5-481b-ba9e-1ac3f332eb55" />
+<!--img width="1047" height="482" alt="Screenshot 2026-03-29 at 20 11 53" src="https://github.com/user-attachments/assets/51363eae-ccd5-481b-ba9e-1ac3f332eb55" /-->
 
 <img width="1485" height="849" alt="Screenshot 2026-03-29 at 20 00 20" src="https://github.com/user-attachments/assets/b3d52b15-0e7c-49e3-8fb6-5ed290194c87" />
 
