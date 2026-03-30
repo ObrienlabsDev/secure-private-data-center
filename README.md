@@ -1,27 +1,46 @@
-# secure-private-data-center
+# Secure Private Data Center
 Conslidated private data center artifacts
 
-# GDC - Google Distributed Cloud
-GDC is Google's version of private or hybrid cloud within your own data center.
-## GDC 
+# Hardware
+## GDC - Google Distributed Cloud
+GDC is Google's version of private or hybrid cloud within your own data center. 
 
-## GDC Documentation
+### GDC Documentation
 - https://docs.cloud.google.com/distributed-cloud/docs
 - See [VM Runtime](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable) (wraps Redhat [KubeVirt)](https://kubevirt.io/) https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable
-## GDC Component Mapping
+### GDC Component Mapping
 
  Component | GDC  | OSS |
 ---|---|---
 1 | VM Manager | KubeVirt
 
 
-## GDC Training
+### GDC Training
 - https://partner.skills.google/catalog?keywords=GDC
 - https://cloud.google.com/customers/rubin-observatory
 
-## Lenovo SR250 V3 Rack Servers as GDC Simulator
+## Lenovo Rack Servers as GDC Simulators
 - https://vmware.lenovo.com/content/recipe/SR250%20V3-Raptor%20lake-ESXi9.0.html
 - https://serverproven.lenovo.com/
+
+### Lenovo SR250 V3 Rack Server
+
+Lenovo XEON blades are cost effective for GDC simulation and include a secondary management CPU/Software stack for configuraiton - lead time is 30 days for shipping.
+The following SR250 V3 server can run either Redhat or Ubuntu.
+
+<img width="1485" height="849" alt="Screenshot 2026-03-29 at 20 00 20" src="https://github.com/user-attachments/assets/b3d52b15-0e7c-49e3-8fb6-5ed290194c87" />
+
+### TOR Networking
+Currently using TPLink 10gbps rack switches and routers.
+
+
+
+# Software
+## Openstack
+
+## Open Nebula
+- Open Nebula - https://en.wikipedia.org/wiki/OpenNebula
+
 
 # Use Cases
 - https://github.com/ObrienlabsDev/drone-streaming-extraction?tab=readme-ov-file
@@ -60,6 +79,6 @@ GDC is Google's version of private or hybrid cloud within your own data center.
 - Google internal-only L300 Anthos Migration notes - https://github.com/ObrienlabsDev/gcp-infrastructure-as-code/issues/22
 
 # References
-- Open Nebula - https://en.wikipedia.org/wiki/OpenNebula
+
 - ONAP - https://onap.org/
 - GoC/SSC Aurora (Cross CSP Kubernetes based LZ for use in Public Sector)  - https://github.com/gccloudone-aurora including helm charts - https://github.com/gccloudone-aurora/aurora-platform-charts (not https://github.com/gccloudone/aurora) - tracking https://github.com/ObrienlabsDev/blog/issues/176
