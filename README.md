@@ -37,11 +37,15 @@ VM virtualization | VMs on Kubernetes | GCE | VM Manager | KubeVirt
 Lenovo XEON blades are cost effective for GDC simulation and include a secondary management CPU/Software stack for configuraiton - lead time is 30 days for shipping.
 The following SR250 V3 server can run either Redhat or Ubuntu.
 
-<!--img width="1047" height="482" alt="Screenshot 2026-03-29 at 20 11 53" src="https://github.com/user-attachments/assets/51363eae-ccd5-481b-ba9e-1ac3f332eb55" /-->
+After post shipping diagnostics and setup...
+<img width="1254" height="942" alt="Screenshot 2026-03-29 at 20 23 00" src="https://github.com/user-attachments/assets/d9c38913-ae43-408c-bb3d-e065b53b0784" />
 
+The blades can be installed to a standard 19 inch rack in 1U slots and connected to top of rack switches/routers along with separate redundant power sources.
 <img width="1485" height="849" alt="Screenshot 2026-03-29 at 20 00 20" src="https://github.com/user-attachments/assets/b3d52b15-0e7c-49e3-8fb6-5ed290194c87" />
 
-<img width="627" height="471" alt="Screenshot 2026-03-29 at 20 23 00" src="https://github.com/user-attachments/assets/d9c38913-ae43-408c-bb3d-e065b53b0784" />
+For smaller rack depths such as 24 inches - the supplied lenovo specific extendable rails can be substitued with fixed 3rd party rails.
+<img width="2052" height="299" alt="Screenshot 2026-03-29 at 21 09 48" src="https://github.com/user-attachments/assets/b06025e4-1298-4761-83a6-88a0aec4a9a2" />
+
 
 ### TOR Networking
 Currently using TPLink 10gbps rack switches and routers.
