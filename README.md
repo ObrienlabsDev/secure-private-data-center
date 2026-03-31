@@ -64,8 +64,10 @@ Currently using TPLink 10gbps rack switches and routers.
 # Software
 ## Kubernetes Installations
 ### AWS - EKS Anywhere
+- see https://aws.amazon.com/pm/eks-anywhere/
+- 
 ### GCP - Google Distributed Cloud
-- see 
+- see https://github.com/ObrienlabsDev/secure-private-data-center/blob/main/README.md#gdc---google-distributed-cloud
 ## Harbor
 - https://goharbor.io/
 - 
