@@ -40,6 +40,7 @@ This GDC software-only for BM looks to be a rebrand of Anthos where on prem CPUs
 #### Lenovo Rack Servers as GDC Simulators
 - https://vmware.lenovo.com/content/recipe/SR250%20V3-Raptor%20lake-ESXi9.0.html
 - https://serverproven.lenovo.com/
+- https://lenovopress.lenovo.com/lp1215.pdf#:~:text=Lenovo%20has%20certified%20the%20ThinkAgile%20VX%20solution,an%20Anthos%20Ready%20virtualized%20platform%2C%20with%20bare%2Dmetal
 
 ##### Lenovo SR250 V3 Rack Server
 
