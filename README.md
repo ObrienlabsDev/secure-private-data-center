@@ -1,5 +1,5 @@
 # Secure Private Data Center
-Conslidated private data center artifacts
+Conslidated private data center artifacts.
 
 # Hardware
 ## GDC - Google Distributed Cloud
@@ -23,7 +23,6 @@ Connect Agent (GKE) | anthos fleet registration | . | [Connect Agent](https://do
 Service Mesh | . | . | . | .
 VM virtualization | VMs on Kubernetes | GCE | VM Manager | KubeVirt
 . | . | . | . | .
-
 
 ### GDC Documentation
 - https://docs.cloud.google.com/distributed-cloud/docs
@@ -63,6 +62,10 @@ Currently using TPLink 10gbps rack switches and routers.
 
 
 # Software
+## Kubernetes Installations
+### AWS - EKS Anywhere
+### GCP - Google Distributed Cloud
+- see 
 ## Harbor
 - https://goharbor.io/
 - 
