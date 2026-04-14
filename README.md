@@ -1,5 +1,7 @@
 # Secure Private Data Center
 Conslidated private data center artifacts.
+This repo details various approaches to standing up an air gapped data center that optionally uses or replicates functionality in GDC (Google Distributed Cloud) - both software only and air gapped solutions.
+
 
 # Hardware
 ## GDC - Google Distributed Cloud
@@ -84,6 +86,7 @@ KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/di
 ## Storage
 - Symcloud Storage is used by GDC - https://symphony.rakuten.com/telecom-cloud/cloud-native-storage
 - https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/virtual-machines#configure_symcloud_storage
+- https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/storage
 - 
 ## Harbor
 - https://goharbor.io/
