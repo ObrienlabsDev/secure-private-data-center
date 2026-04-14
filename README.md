@@ -18,13 +18,15 @@ There was a historical variant of GDC Hosted (renamed GDC connected (edge) where
 
 ### GDC Component Mapping
 
- Component | Use Case | GCP | GDC  | OSS |
---- | --- | --- | --- | ---
-API Gateway | L7 LB | Apigee | GKE dataplane 2 Gateway API | Ingres
-Connect Agent (GKE) | anthos fleet registration | . | [Connect Agent](https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/connect-agent) | .
-Service Mesh | . | . | . | .
-VM virtualization | VMs on Kubernetes | GCE | VM Manager | KubeVirt
-. | . | . | . | .
+ Component | Use Case | GCP | GDC  | OSS | Commercial
+--- | --- | --- | --- | --- | ---
+API Gateway | L7 LB | Apigee | GKE dataplane 2 Gateway API | Ingress | 
+Connect Agent (GKE) | anthos fleet registration | . | [Connect Agent](https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/connect-agent) | . | .
+GKE Cluster Management | . | . | Anthos | [CAPI](https://github.com/kubernetes-sigs/cluster-api) | .
+Service Mesh | . | . | . | Istio | .
+Storage | . | . | . | . | [Symcloud](https://symphony.rakuten.com/telecom-cloud/cloud-native-storage)
+VM virtualization | VMs on Kubernetes | GCE | VM Manager | [KubeVirt](https://kubevirt.io/) | .
+. | . | . | . | . | .
 
 ### GDC Documentation
 - https://docs.cloud.google.com/distributed-cloud/docs
