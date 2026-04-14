@@ -56,6 +56,7 @@ The blades can be installed to a standard 19 inch rack in 1U slots and connected
 For smaller rack depths such as 24 inches - the supplied lenovo specific extendable rails must be replaced with fixed 3rd party rails.
 <img width="2052" height="299" alt="Screenshot 2026-03-29 at 21 09 48" src="https://github.com/user-attachments/assets/b06025e4-1298-4761-83a6-88a0aec4a9a2" />
 
+SR250 V3 noise levels - https://youtu.be/E6iNi3QMMcE
 
 #### TOR Networking
 Currently using TPLink 10gbps rack switches and routers.
