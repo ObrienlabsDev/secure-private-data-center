@@ -27,6 +27,8 @@ VM virtualization | VMs on Kubernetes | GCE | VM Manager | KubeVirt
 ### GDC Documentation
 - https://docs.cloud.google.com/distributed-cloud/docs
 - See [VM Runtime](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable) (wraps Redhat [KubeVirt)](https://kubevirt.io/) https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable
+- https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
+- https://docs.cloud.google.com/distributed-cloud/sandbox/latest
 
 
 ### GDC Training
@@ -37,13 +39,13 @@ VM virtualization | VMs on Kubernetes | GCE | VM Manager | KubeVirt
 - https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal
 
 This GDC software-only for BM looks to be a rebrand of Anthos where on prem CPUs are billed back to the GCP Project.
+
 #### Lenovo Rack Servers as GDC Simulators
 - https://vmware.lenovo.com/content/recipe/SR250%20V3-Raptor%20lake-ESXi9.0.html
 - https://serverproven.lenovo.com/
 - https://lenovopress.lenovo.com/lp1215.pdf#:~:text=Lenovo%20has%20certified%20the%20ThinkAgile%20VX%20solution,an%20Anthos%20Ready%20virtualized%20platform%2C%20with%20bare%2Dmetal
 
 ##### Lenovo SR250 V3 Rack Server
-
 Lenovo XEON blades are cost effective for GDC simulation and include a secondary management CPU/Software stack for configuraiton - lead time is 30 days for shipping.
 The following SR250 V3 server can run either Redhat or Ubuntu.
 
@@ -70,6 +72,19 @@ Currently using TPLink 10gbps rack switches and routers.
 - 
 ### GCP - Google Distributed Cloud
 - see https://github.com/ObrienlabsDev/secure-private-data-center/blob/main/README.md#gdc---google-distributed-cloud
+
+## CAPI - Cluster API
+- https://github.com/kubernetes-sigs/cluster-api
+CAPI is used under the cover by Anthos.
+
+## KubeVirt
+- https://kubevirt.io/
+KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/virtual-machines
+
+## Storage
+- Symcloud Storage is used by GDC - https://symphony.rakuten.com/telecom-cloud/cloud-native-storage
+- https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/virtual-machines#configure_symcloud_storage
+- 
 ## Harbor
 - https://goharbor.io/
 - 
