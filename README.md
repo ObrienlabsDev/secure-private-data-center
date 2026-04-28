@@ -95,6 +95,9 @@ CAPI is used under the cover by Anthos.
 KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/virtual-machines
 
 ## Storage
+### NetApp
+- [GCNV](https://cloud.google.com/netapp-volumes?hl=en)
+### Rakuten
 - Symcloud Storage is used by GDC - https://symphony.rakuten.com/telecom-cloud/cloud-native-storage
 - https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/virtual-machines#configure_symcloud_storage
 - https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/storage
