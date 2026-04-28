@@ -97,6 +97,7 @@ KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/di
 ## Storage
 ### NetApp
 - [GCNV](https://cloud.google.com/netapp-volumes?hl=en)
+- https://github.com/ObrienlabsDev/blog/issues/183
 ### Rakuten
 - Symcloud Storage is used by GDC - https://symphony.rakuten.com/telecom-cloud/cloud-native-storage
 - https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/virtual-machines#configure_symcloud_storage
