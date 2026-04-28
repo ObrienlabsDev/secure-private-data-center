@@ -33,7 +33,7 @@ Observability | . | . | . | Prometheus / OpenTelemetry | .
 Org Policies | . | . | . | Open Policy Agent/Kyverno
 Project | . | . | . | K8s Namespaces or clusters | .
 Service Mesh | . | . | . | Istio | .
-Storage | PVC/Block | . | NetApp | . | [GCNV](https://cloud.google.com/netapp-volumes?hl=en) | [Symcloud](https://symphony.rakuten.com/telecom-cloud/cloud-native-storage)
+Storage | PVC/Block | . | NetApp | . | [GCNV](https://cloud.google.com/netapp-volumes?hl=en) [Symcloud](https://symphony.rakuten.com/telecom-cloud/cloud-native-storage)
 VM virtualization | VMs on Kubernetes | GCE | VM Manager | [KubeVirt](https://kubevirt.io/) | .
 . | . | . | . | . | .
 
