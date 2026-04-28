@@ -155,6 +155,8 @@ Anthos has a one time credit of 1000US - getting details for new accounts.
 <img width="910" height="43" alt="Screenshot 2026-03-31 at 16 17 50" src="https://github.com/user-attachments/assets/9b7dfaef-3bc3-404e-93c9-5338951201d2" />
 
 
+# TODO
+- lock down Google Cloud Dedicated and it's relationship or rename to Google Cloud Distributed (Air Gapped or Connected)
 
 # References
 
