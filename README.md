@@ -27,8 +27,8 @@ There was a historical variant of GDC Hosted (renamed GDC connected (edge) where
 API Gateway | L7 LB | Apigee | GKE dataplane 2 Gateway API | Ingress | 
 Connect Agent (GKE) | anthos fleet registration | . | [Connect Agent](https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/connect-agent) | . | .
 GKE Cluster Management | . | . | Anthos | [CAPI](https://github.com/kubernetes-sigs/cluster-api) | .
-Identity/SSO | RBAC | . | . | KeyCloak | .
-IDS/IPS | . | . | . | Falco | .
+Identity/SSO | RBAC | . | . | KeyCloak | AD (Active Directory), IBM Verify
+IDS/IPS | TLS Inspection | Palo Alto NGFW | Palo Alto | Falco | .
 Logging | . | . | . | ELK | .
 Networking/eBPF/CNI | . | . | . | Cilium | . 
 Observability | . | . | . | Prometheus / OpenTelemetry | .
