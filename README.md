@@ -4,6 +4,8 @@ This repo details various approaches to standing up an air gapped data center th
 
 
 # Hardware
+See https://cloud.google.com/sovereign-cloud?hl=en which includes Google Cloud Dedicated and Google Distributed Cloud
+
 ## GDC - Google Distributed Cloud
 - https://github.com/ObrienlabsDev/blog/issues?q=state%3Aopen%20label%3A%22GDC%22
 - 
