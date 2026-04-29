@@ -22,22 +22,22 @@ There was a historical variant of GDC Hosted (renamed GDC connected (edge) where
 
 ### GDC Component Mapping
 
- Component | Use Case | GCP | GDC  | OSS | Commercial
---- | --- | --- | --- | --- | ---
-API Gateway | L7 LB | Apigee | GKE dataplane 2 Gateway API | Ingress | 
-Connect Agent (GKE) | anthos fleet registration | . | [Connect Agent](https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/connect-agent) | . | .
-GKE Cluster Management | . | . | Anthos | [CAPI](https://github.com/kubernetes-sigs/cluster-api) | .
-Identity/SSO | RBAC | . | . | KeyCloak | AD (Active Directory), IBM Verify
-IDS/IPS | TLS Inspection | Palo Alto NGFW | Palo Alto | Falco | .
-Logging | . | . | . | ELK | .
-Networking/eBPF/CNI | . | . | . | Cilium | . 
-Observability | . | . | . | Prometheus / OpenTelemetry | .
-Org Policies | . | . | . | Open Policy Agent/Kyverno
-Project | . | . | . | K8s Namespaces or clusters | .
-Service Mesh | . | . | . | Istio | .
-Storage | PVC/Block | . | NetApp | . | [GCNV](https://cloud.google.com/netapp-volumes?hl=en) [Symcloud](https://symphony.rakuten.com/telecom-cloud/cloud-native-storage)
-VM virtualization | VMs on Kubernetes | GCE | VM Manager | [KubeVirt](https://kubevirt.io/) | .
-. | . | . | . | . | .
+ Component | Use Case | GCP | GDC  | Spec | OSS | Commercial
+--- | --- | --- | --- | --- | --- | ---
+API Gateway | L7 LB | Apigee | . | GKE dataplane 2 Gateway API | Ingress | 
+Connect Agent (GKE) | anthos fleet registration | . | [Connect Agent](https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/connect-agent) | . | . | .
+GKE Cluster Management | . | . | Anthos | . | [CAPI](https://github.com/kubernetes-sigs/cluster-api) | .
+Identity/SSO | RBAC | . | . | OIDC | KeyCloak | AD (Active Directory), IBM Verify
+IDS/IPS | TLS Inspection | Palo Alto NGFW | Palo Alto | . | Falco | .
+Logging | . | . | . | . | ELK | .
+Networking/eBPF/CNI | . | . | . | . | Cilium | . 
+Observability | . | . | . | . | Prometheus / OpenTelemetry | .
+Org Policies | . | . | . | . | Open Policy Agent/Kyverno
+Project | . | . | . | . | K8s Namespaces or clusters | .
+Service Mesh | . | . | . | . | Istio | .
+Storage | PVC/Block | . | NetApp | . | . | [GCNV](https://cloud.google.com/netapp-volumes?hl=en) [Symcloud](https://symphony.rakuten.com/telecom-cloud/cloud-native-storage)
+VM virtualization | VMs on Kubernetes | GCE | VM Manager | . | [KubeVirt](https://kubevirt.io/) | .
+. | . | . | . | . | . | .
 
 ### GDC Documentation
 - https://docs.cloud.google.com/distributed-cloud/docs
