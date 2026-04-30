@@ -121,6 +121,12 @@ KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/di
 # Issues
 - https://github.com/ObrienlabsDev/blog/issues/174
 
+# Google Distributed Cloud at Next 26
+
+## GDC - Connected
+<img width="414" height="850" alt="Screenshot 2026-04-26 at 18 20 10" src="https://github.com/user-attachments/assets/80af211c-fe5c-4747-a543-55fb323837d7" />
+
+
 # Links
 - https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
 -  GDC on bare metal - https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/downloads
@@ -131,6 +137,13 @@ KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/di
 - https://cloud.google.com/blog/products/infrastructure-modernization/google-distributed-cloud-edge-appliance-use-cases/
 - GDC Edge Appliance is deprecated - https://docs.cloud.google.com/distributed-cloud/edge-appliance/deprecated-notice
 - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/overview
+
+- https://github.com/ObrienlabsDev/secure-private-data-center
+- https://github.com/ObrienlabsDev/blog/blob/main/google-distributed-cloud.md
+- L300 Anthos Migration notes - https://github.com/ObrienlabsDev/gcp-infrastructure-as-code/issues/22
+- https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable
+- https://partner.skills.google/catalog?keywords=GDC
+- https://cloud.google.com/customers/rubin-observatory
 
 
 # Lenovo Rack Servers
