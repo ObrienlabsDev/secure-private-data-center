@@ -24,6 +24,7 @@ There was a historical variant of GDC Hosted (renamed GDC connected (edge) where
 ### GDC Connected - Hardware Component Mapping
 #### Google Distributed Cloud at Next 26
 
+<img width="414" height="850" alt="_next_26_gdcc_Screenshot 2026-04-26 at 18 20 10" src="https://github.com/user-attachments/assets/87785c7e-421c-41c0-a077-cf4c5734dcfe" />
 
  Component | Vendor | Model | Alternate 
 --- | --- | --- | ---
@@ -35,8 +36,7 @@ Storage | NetApp | <img width="1160" height="248" alt="_next_26_netapp_Screensho
 Servers | HP | <img width="1158" height="646" alt="_next_26_gdcc_servers_Screenshot 2026-04-26 at 18 24 36" src="https://github.com/user-attachments/assets/41d37a4c-c273-4e2d-a31d-269462c04639" />  | . 
 Servers | Intel | <img width="653" height="506" alt="_next_26_intel_Screenshot 2026-04-26 at 18 27 27" src="https://github.com/user-attachments/assets/607b5c21-95df-4c8e-9303-13a0afdd3a88" />
 GPUs | . | . | .
-Power Supply | . | <img width="1189" height="720" alt="_next_26_gdcc_power_Screenshot 2026-04-26 at 18 24 23" src="https://github.com/user-attachments/assets/f33c6a96-e44a-40ad-98a5-4522ce1020bf" />
- | 
+Power Supply | . | <img width="1189" height="720" alt="_next_26_gdcc_power_Screenshot 2026-04-26 at 18 24 23" src="https://github.com/user-attachments/assets/f33c6a96-e44a-40ad-98a5-4522ce1020bf" /> | 
 . | . | . | .
 
 ### GDC Bare Metal - Hardware Component Mapping
