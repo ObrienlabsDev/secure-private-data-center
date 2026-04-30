@@ -9,6 +9,8 @@ See https://cloud.google.com/sovereign-cloud?hl=en which includes Google Cloud D
 
 ## GDC - Simulated Local Rack
 
+<img width="679" height="966" alt="_gdc_simulated_rackScreenshot 2026-04-30 at 12 30 20" src="https://github.com/user-attachments/assets/5ce286da-5c5e-4327-9360-888a6153c2e8" />
+
 
 ### Lenovo BMC Rack Servers as GDC Simulators
 - https://vmware.lenovo.com/content/recipe/SR250%20V3-Raptor%20lake-ESXi9.0.html
