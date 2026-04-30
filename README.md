@@ -160,6 +160,9 @@ Anthos has a one time credit of 1000US - getting details for new accounts.
 # TODO
 - lock down Google Cloud Dedicated and it's relationship or rename to Google Cloud Distributed (Air Gapped or Connected)
 
+# Partner Companies
+## Thales
+- https://cpl.thalesgroup.com/about-us/newsroom/thales-introduces-imperva-for-google-cloud
 # References
 
 - ONAP - https://onap.org/
