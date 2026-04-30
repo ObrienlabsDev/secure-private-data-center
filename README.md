@@ -1,3 +1,4 @@
+
 # Secure Private Data Center
 Conslidated private data center artifacts.
 This repo details various approaches to standing up an air gapped data center that optionally uses or replicates functionality in GDC (Google Distributed Cloud) - both software only and air gapped solutions.
@@ -22,17 +23,20 @@ There was a historical variant of GDC Hosted (renamed GDC connected (edge) where
 
 ### GDC Connected - Hardware Component Mapping
 #### Google Distributed Cloud at Next 26
-<img width="414" height="850" alt="Screenshot 2026-04-26 at 18 20 10" src="https://github.com/user-attachments/assets/80af211c-fe5c-4747-a543-55fb323837d7" />
+
 
  Component | Vendor | Model | Alternate 
 --- | --- | --- | ---
 TOR Switches 10G | . | . | 
 TOR Switches 100-400G | . | . | 
-Identity | . | . | .
-Storage | . | . | . 
-Servers | . | . | . 
+Firewall | Palo Alto | <img width="1143" height="325" alt="_next_26_pa_Screenshot 2026-04-26 at 18 23 45" src="https://github.com/user-attachments/assets/19853c04-c9ac-458b-9557-4e2b9c675cda" /> | .
+Identity | Thales | <img width="1171" height="130" alt="_next_26_thales_Screenshot 2026-04-26 at 18 23 59" src="https://github.com/user-attachments/assets/047f752b-b370-4192-ab17-823a40aca636" /> | .
+Storage | NetApp | <img width="1160" height="248" alt="_next_26_netapp_Screenshot 2026-04-26 at 18 23 06" src="https://github.com/user-attachments/assets/dc3f24c0-1367-4cfd-8edc-e059a66c4bd9" /> | . 
+Servers | HP | <img width="1158" height="646" alt="_next_26_gdcc_servers_Screenshot 2026-04-26 at 18 24 36" src="https://github.com/user-attachments/assets/41d37a4c-c273-4e2d-a31d-269462c04639" />  | . 
+Servers | Intel | <img width="653" height="506" alt="_next_26_intel_Screenshot 2026-04-26 at 18 27 27" src="https://github.com/user-attachments/assets/607b5c21-95df-4c8e-9303-13a0afdd3a88" />
 GPUs | . | . | .
-Power Supply | . | . | 
+Power Supply | . | <img width="1189" height="720" alt="_next_26_gdcc_power_Screenshot 2026-04-26 at 18 24 23" src="https://github.com/user-attachments/assets/f33c6a96-e44a-40ad-98a5-4522ce1020bf" />
+ | 
 . | . | . | .
 
 ### GDC Bare Metal - Hardware Component Mapping
